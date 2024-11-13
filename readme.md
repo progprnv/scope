@@ -1,9 +1,9 @@
-![image](https://github.com/user-attachments/assets/fb2e6570-6f07-4c94-846c-fa09d4e0c47d)
+# SCOPE - Subdomain Cache Observation, Poisoning & Evaluation
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fb2e6570-6f07-4c94-846c-fa09d4e0c47d" alt="image"/>
 </p>
-# SCOPE - Subdomain Cache Observation, Poisoning & Evaluation
 
 **SCOPE** is a Python-based tool designed to identify cache poisoning vulnerabilities in subdomains. It performs the following operations for each subdomain in a given list:
 
