@@ -2,12 +2,20 @@ import subprocess
 import sys
 
 # Check if the file path is provided as a command-line argument
-if len(sys.argv) != 2:
-    print("Usage: python3 scope.py <path_to_subdomain.txt>")
+if len(sys.argv) < 2:
+    print("Usage: python3 scope.py <path_to_subdomain.txt> [thread_rate]")
     sys.exit(1)
 
 # Get the path to subdomain.txt from command-line arguments
 file_path = sys.argv[1]
+
+# Get the thread rate if provided, else set default to 1
+thread_rate = int(sys.argv[2]) if len(sys.argv) > 2 else 1
+
+# Validate the thread rate
+if not (1 <= thread_rate <= 100):
+    print("Thread rate must be between 1 and 100.")
+    sys.exit(1)
 
 # Load subdomains from the specified file
 try:
