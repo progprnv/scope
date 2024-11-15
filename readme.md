@@ -14,7 +14,7 @@
 
 ---
 
-## Features
+## Features 
 
 - **Automated cache poisoning testing** for multiple subdomains.
 - **Checks for `X-Cache-Hits: 1`** to identify cache-related vulnerabilities.
