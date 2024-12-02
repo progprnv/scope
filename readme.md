@@ -12,7 +12,7 @@
 3. **Attempts a GET request** with an illegal header to poison the cache.
 4. **Verifies if the page is cached** and accessible, indicating a potential vulnerability.
 
----
+--- 
 
 ## Features 
 
