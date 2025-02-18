@@ -5,7 +5,7 @@ import sys
 if len(sys.argv) < 2:
     print("Usage: python3 scope.py <path_to_subdomain.txt> [thread_rate]")
     sys.exit(1)
-
+   
 # Get the path to subdomain.txt from command-line arguments
 file_path = sys.argv[1]
 
