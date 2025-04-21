@@ -1,4 +1,4 @@
-# SCOPE - Subdomain Cache Observation, Poisoning & Evaluation
+# SCOPE - Shadow Cache Observation, Poisoning & Evaluation
 
 
 <p align="center">
